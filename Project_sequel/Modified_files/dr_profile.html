@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental</title>
+    <link href=" {% static 'css/main.css' %} " rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+                <!-- Latest compiled JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+
+
+</head>
+<body>
+ <div class="dr-profile-page">
+    <header style="background: #1ebeb6;">
+        <img src=" {% static 'images/img-doctor-2.jpg' %} " alt="" class="dr_image">
+        <div class="content">
+            <h4>DentiCare Dental Surgeon</h4>
+            <h3>Maria</h3>
+            <h1>Welsh</h1>
+            <p>objectively innovate empowered manufactured products whereas parallel platforms. holisticly predominate extensible testing procedures for reliable supply chains. dramatically engage top-line web services vis-a-vis cutting-edge.</p>
+            <hr>
+            <img src=" {% static 'images/sign-4.png' %} " style="float: left;" alt="">
+            <div class="header-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+        </div>
+        <div class="header">
+            <div class="top-nav container">
+            
+                <ul>
+                    <li><a href=" {% static 'login.html' %} " style="--color:#f0ad4e">Login</a></li>
+                    <li><a href=" {% static 'signup.html' %} " style="--color:#71d109">Signup</a></li>
+                    <li><a href=" {% static 'upload_prescription.html' %} " style="--color:#01b4f1" >Upload Precription</a></li>
+                    <li><a href=" {% static 'book_appointment.html' %} " style="--color:#4cae4c">Book Appointment</a></li>
+                  </ul>
+            </div>
+            <div class="nav-bar">
+                <div class="logo col-lg-2 col-5">
+                    <a href=" {% static 'index.html' %} "><img src=" {% static 'images/logo.png' %} " class="img-fluid" alt=""></a>
+                </div>
+                <nav>
+                    <ul class="">
+                        <li class="sub-menu "><a class="link" href="#">About US</a>
+                            <ul class="">
+                                <li><a href=" {% static 'general_info.html' %} ">Genreal Info</a></li>
+                                <li><a href=" {% static 'dr_profile.html' %} ">Doctor's Profile</a></li>
+                                <li><a href=" {% static 'career.html' %} ">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu"><a class="link" href="#">Popular Packages</a>
+                            <ul class="big-sub-menu" style=" border: 2px solid #000; border-radius: 4px;">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Pregnancy Checkup</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Arthritis Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Thyroid Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">HbA1c Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">PSA Test</a></li>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Uric Acid Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Pancreatitis Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">STD Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Ca125 Test</a></li>
+                                        <li><a href=" {% static 'pregnancy-test.html' %} ">Vitamin B12 Test</a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href=" {% static 'contact-us.html' %} ">Conatct Us</a>
+                        <li class="sub-menu"><a href="#">Services</a>
+                            <ul>
+                                <li><a href=" {% static 'services.html' %} ">Single Service</a></li>
+                                <li><a href=" {% static 'solution.html' %} ">Solutions</a></li>
+                                <!-- <li><a href=" {% static 'book_appointment.html' %} ">Book Appointment</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href=" {% static 'news.html' %} ">News</a>
+                        </li>
+                         <!-- <li><a style="background: #115278; border-radius: 40px;" href=" {% static 'login.html' %} "><i
+                                ></i>Login</a></li> -->
+                     <!--   <li><a style="background: #115278; border-radius: 40px; margin-right: 4px;" href=" {% static 'book_appointment.html' %} "><i
+                                    class="fa fa-phone"></i>Book Appointment</a></li> -->
+                        <div class="bottom-nav container">
+                            <ul>
+                                <li><a href=" {% static 'login.html' %} " style="--color:#f0ad4e">Login</a></li>
+                                <li><a href=" {% static 'signup.html' %} " style="--color:#71d109">Signup</a></li>
+                                <li><a href=" {% static 'upload_prescription.html' %} " style="--color:#01b4f1">Upload Precription</a></li>
+                                <li><a href=" {% static 'book_appointment.html' %} " style="--color:#4cae4c">Book Appointment</a></li>
+                              </ul>
+                            <hr>
+                        </div>
+                        </li>
+            
+                    </ul>
+                </nav>
+                <div class="toggle-menu"><i class="fa fa-bars"></i></div>
+            </div>
+                <br><br><br>
+            
+        </div>
+                <img class="bottom-cover" style="width: 100vw;" src=" {% static 'images/bgn-footer-reverse.png' %} " alt="">
+            </header>
+
+            <div class="first">
+                <div class="row">
+                    <div class="first-col col-lg-4 col-12">
+                    <h3 style="color:#1ebeb6; font-family: 'Playfair Display', serif;">Consult Maria</h3>
+                    <hr>
+                    <div class="third p-lg-4">
+                        <div class="row">
+                           <i class="fa fa-plus-circle col-lg-4 col-3"  aria-hidden="true"></i>
+                                    <div class="col-9 pl-lg-1 pl-4">
+                                        <h6>24/7 Emergency</h6>
+                                        <p>415-205-5550 
+                                        <br> 415-205-5551</p>
+                                    </div>
+                                </div>
+                                <div class="row">    
+                                    <i class="fa fa-comment col-lg-4 col-3"  aria-hidden="true"></i>
+                                    <div class="col-9 pl-lg-1 pl-4">
+                                        <h6>Email Us</h6>
+                                        <p>office@denticare.com
